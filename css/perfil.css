@@ -1,0 +1,12 @@
+.img-Perfil{
+    width: 200px;
+    height: 220px;
+    margin: auto;
+    margin-bottom: 40px;
+    
+}
+.img-Perfil img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
