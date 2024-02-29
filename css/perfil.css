@@ -1,8 +1,7 @@
 .img-Perfil{
-    width: 200px;
-    height: 220px;
-    margin: auto;
-    margin-bottom: 40px;
+    width: 250px;
+    height: 300px;
+    margin: 20px auto;
     
 }
 .img-Perfil img{
@@ -10,3 +9,110 @@
     height: 100%;
     object-fit: cover;
 }
+.informacion{
+    padding: 20px 0px;
+}
+.informacion h1{
+    font-size: 30px;
+}
+.informacion p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #4b5563;
+}
+.estado{
+    margin: 20px 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #4b5563;
+}
+
+.redes{
+    display: flex;
+    gap: 15px;
+    margin: 40px 0px;
+}
+
+
+/*---- SECCION 2 ---------*/
+
+.sobreMi{
+    font-size: 17px;
+
+    width: 108px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #EAEDED;
+    margin: 10px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobreMi:hover{
+    cursor: pointer;
+    background-color: #BFC9CA;
+    transition: 0.6s;
+}
+
+.imag2{
+    width: 280px;
+    height: 390px;
+    margin: 20px auto;
+}
+.imag2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* SUBTITULO */
+
+.subTit{
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+/* PARRAFOS */
+p{
+    font-size: 16px;
+    color: #4b5563;
+    margin-top: 15px;
+}
+
+.parrafos{
+    margin-top: 25px;
+}
+
+/* LINKS */
+a{
+    text-decoration: none;
+    border-bottom: 1.5px solid #4b5563;
+    color: #4b5563;
+}
+
+a:hover{
+    background-color: #d1d5db;
+    transition: 0.1s;
+
+}
+
+/* LISTAS */
+ul{
+    font-size: 16px;
+    margin-left: 20px;
+}
+ul li{
+    margin-bottom: 10px;
+}
+
+.listas{
+    display: flex;
+    margin-top: 15px;
+}
+
+
